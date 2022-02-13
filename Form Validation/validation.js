@@ -34,7 +34,7 @@
     }, false);
 
     function isValidEmail(email){
-        var regexEmail = /^[\w\+\.]+[^_]@\w+\.\w{2,}(?:(?:\.\w{2,})+)?$/;
+        var regexEmail = /^[\w\+\.]+@\w+\.\w{2,}(?:\.\w{2})?$/;
         return regexEmail.test(email);
     }
     
